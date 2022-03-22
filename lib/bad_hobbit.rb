@@ -2,6 +2,16 @@
 # frozen_string_literal: true
 
 # Id$ nonnax 2022-03-22 17:36:02 +0800
+#  config.ru must 
+#   require lib/bad_hobbit
+#   run App
+#  
+#  app.rb is the main app
+#  write CRUD methods ala-sinatra app  
+#  
+#  render template with erb
+#  erb files are searched in the views/ directory
+#
 require 'hobbit'
 require 'erb'
 
